@@ -1,0 +1,1 @@
+# License-Plate-Recognition-using-YOLOv11-and-PaddleOCR
