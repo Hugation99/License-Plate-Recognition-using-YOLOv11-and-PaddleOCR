@@ -1,2 +1,4 @@
 # ignore virtual environment 
 /ocr_env
+/datasets/*
+/models/*
