@@ -1,13 +1,12 @@
 from logging import config
 import cv2
-from debian import c
 from paddleocr import PaddleOCR
 from ultralytics import YOLO
 
 
 def main():
 
-    VIDEO_PATH = 'path/to/your/video.mp4'
+    VIDEO_PATH = './assets/pexels-george-morina-5222550-2160p.mp4'
 
     # Load the YOLOv11 model for license plate detection
     model = YOLO('yolov11-license-plate.pt')
